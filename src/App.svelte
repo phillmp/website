@@ -4,6 +4,10 @@
    import HeroImage from "./lib/HeroImage.svelte";
    import PhilSelfie from "./assets/PhilSelfie.png";
    import CV from "./assets/phillippe_morris-parent_CV.pdf"
+   import gallar from "./assets/portfolio/Case study - Gallar mobile app.pdf"
+   import hunchly from "./assets/portfolio/Case study - Hunchly 2 report builder.pdf"
+   import fishfed from "./assets/portfolio/Showcase - FishFed.pdf"
+   import lynnmore from "./assets/portfolio/Showcase - Lynnmore.pdf"
 </script>
 
 <main class="bg-gradient-to-b from-white to-zinc-100 max-h-full min-h-screen flex justify-center">
@@ -18,6 +22,13 @@
       <LinkButton href={CV}> CV </LinkButton>
       <LinkButton href="https://www.linkedin.com/in/phillippe-morris-parent-92997369/"> LinkedIn </LinkButton>
       <LinkButton href="https://github.com/phillmp"> GitHub </LinkButton>
+    </div>
+    <div class="w-2/3 border text-slate-600 my-2"/>
+    <div class="flex flex-col gap-y-3 items-stretch self-stretch my-4">
+      <LinkButton href={hunchly}> Hunchly 2 case study (PDF)</LinkButton>
+      <LinkButton href={gallar}> Gallar mobile app case study (PDF)</LinkButton>
+      <LinkButton href={lynnmore}> Lynnmore website showcase (PDF)</LinkButton>
+      <LinkButton href={fishfed}> FishFed website showcase (PDF)</LinkButton>
     </div>
 
   </div>
