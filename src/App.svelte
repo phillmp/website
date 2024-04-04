@@ -19,7 +19,6 @@
       <div class="text-sm px-3 py-1 my-1 rounded-2xl bg-yellow-200 text-slate-800 max-w-fit font-medium">Available to work!</div>
     </div>
     <div class="flex flex-col gap-y-3 items-stretch self-stretch my-4">
-      <LinkButton href={CV}> CV </LinkButton>
       <LinkButton href="https://www.linkedin.com/in/phillippe-morris-parent-92997369/"> LinkedIn </LinkButton>
       <LinkButton href="https://github.com/phillmp"> GitHub </LinkButton>
     </div>
